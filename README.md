@@ -17,4 +17,4 @@ Este é um projeto de website para uma loja fictícia, criado de maneira autôno
 - `JavaScript`
 
   <h2>Status</h2>
-  > :construction: Projeto em construção :construction:
+:construction: Projeto em construção :construction:
