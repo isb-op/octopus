@@ -3,7 +3,6 @@
   margin:0;
   padding: 0;
 }
-
 a{
   color:#fff;
   text-decoration: none;
@@ -14,7 +13,7 @@ a:hover{
   color:pink;
 }
 .logo{
-  width: 90px;
+  width: 100px;
 }
 nav{
   display: flex;
@@ -30,33 +29,37 @@ nav{
   display: flex;
 }
 .nav-list li{
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   margin-left: 32px;
 }
-
 .home_attention{
-  width: 100%;
-  height: 30vh;
+  /* width: 100%;
+  height: 30vh; */
+  flex: 1;
   align-items: center;
-  padding-top: 50px;
-  font-size: 5vh;
+  padding: 50px;
   text-align: center;
   transition: 0.3s;
-
+}
+.home_attention h1 {
+  font-size: 7vh;
+}
+.home_attention p{
+  font-size: 3vh;
+  font-family: monospace;
+  letter-spacing: 4px;
 }
 .home_attention_text{
   transition: 0.3s;
 }
-
 .home_attention_text:hover{
   opacity: 0.5;
   color:red;
 }
-
-
 .section1_about{
   display: flex;
   flex-direction: 1;
+  flex-direction: row;
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -66,10 +69,9 @@ nav{
 .section1_about_text{
   text-align: justify;
   padding-left: 350px;
-  
 }
 .section1_about_text_title{
-  font-size:80px;
+  font-size:60px;
   padding-bottom: 60px;
   font-weight:300;
   font-family: monospace;
@@ -77,30 +79,37 @@ nav{
   text-align: left;
 }
 .section1_about_text_p{
-  font-size:20px;
+  font-size:21px;
   font-weight:300;
   font-family: monospace;
-  /* line-height: 1.3em; */
 }
 .section1_about_image{
   padding-right: 350px;
   padding-left: 100px;
 }
-
 .section2_stand{
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100vh;
   background-color: white;
-  color: black;
+  align-items:flex-start;  
 }
-
+.section2_stand_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2_stand_title h2{
+  font-size: 55px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-family: monospace;
+}
 .section2_stand_products1{
-  align-items:flex-start;
+  padding-top: 30px;
   text-align:left;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 .section2_stand_products1_text h3{
   font-family: monospace;
@@ -108,12 +117,12 @@ nav{
 }
 .section2_stand_products1_text p{
   font-family: monospace;
+  line-height: 1.5em;
   font-size: 20px;
+  padding-bottom: 10px;
 }
-
 .section2_stand_products2{
-  align-items:flex-start;
-
+  padding-top: 30px;
   text-align:left;
   margin-right: 200px;
 }
@@ -129,10 +138,9 @@ nav{
 }
 span{
   text-decoration: line-through;
-
 }
 .image img{
-  width:90%;
+  width: 90%;
   height: 90%;
   transition: 0.7s;
 }
@@ -156,4 +164,48 @@ span{
 .button_buy:hover{
   opacity: 0.5;
   color:rgb(255, 0, 149);
+}
+.section3_container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  
+
+  
+}
+.section3_box1{
+  justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-left: 200px;
+
+}
+.section3_box1_text{
+  font-family: monospace;
+  line-height: 1.5em;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.section3_box1_text h3{
+  padding-bottom: 50px;
+}
+.section3_box2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-right: 200px;
+}
+.section3_box2_text{
+  font-family: monospace;
+  line-height: 1.5em;
+  font-size: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.section3_box2_text h3{
+  padding-bottom: 50px;
 }
